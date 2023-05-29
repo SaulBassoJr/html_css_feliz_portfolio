@@ -14,7 +14,7 @@ header { /* Barra de Navegação */
     font-size: 22px;
     font-family: "Press Start 2P", sans-serif;
     text-shadow: 4px 4px 0px #000;
-    transition: all 0.3s ease-in-out; /* Aplica em todas as propriedades alteradas (*/
+    transition: all 0.3s ease-in-out; /* Aplica em todas as propriedades alteradas (ease-in-out = tanto pra entrada quanto saida)*/
 }
 
 /* img { 
@@ -57,7 +57,7 @@ a:hover {
     color: #000;
 }
 
-#button {
+.button {
     display:inline-block;
     background-color: #828282;
     border-radius: 3px;
@@ -67,20 +67,10 @@ a:hover {
     transition: all 0.3s ease-in;
 }
 
-#button:hover {
+.button:hover {
     background-color: #696969;
     font-size: 20px;
     color: #000;
     box-shadow: 0px 0px 0px #4F4F4F ;
     /* transform: scale(1.05); */
-}
-
-h1{
-    display: inline-flex;
-    align-items: center;
-    color: #828282;
-    font-size: 40px;
-    font-family: "Press Start 2P", sans-serif;
-    text-shadow: 4px 4px 0px #000;
-    margin: 30px;
 }
