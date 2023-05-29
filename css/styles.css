@@ -56,21 +56,3 @@ a::before {
 a:hover {
     color: #000;
 }
-
-#button {
-    display:inline-block;
-    background-color: #828282;
-    border-radius: 3px;
-    padding: 18px 20px;
-    box-shadow: 5px 5px 0px #000;
-    margin-right: 0;
-    transition: all 0.3s ease-in;
-}
-
-#button:hover {
-    background-color: #696969;
-    font-size: 20px;
-    color: #000;
-    box-shadow: 0px 0px 0px #4F4F4F ;
-    /* transform: scale(1.05); */
-}
