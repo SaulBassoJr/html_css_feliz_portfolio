@@ -57,7 +57,7 @@ a:hover {
     color: #000;
 }
 
-.button {
+#button {
     display:inline-block;
     background-color: #828282;
     border-radius: 3px;
@@ -67,7 +67,7 @@ a:hover {
     transition: all 0.3s ease-in;
 }
 
-.button:hover {
+#button:hover {
     background-color: #696969;
     font-size: 20px;
     color: #000;
