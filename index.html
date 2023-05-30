@@ -12,14 +12,17 @@
 
 
         <!-- Estilos -->
-        <link rel="stylesheet" href="css/components/header.css">
-        <link rel="stylesheet" href="css/components/banner.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/components/title.css">
-        <link rel="stylesheet" href="css/components/box.css">
+        <link rel="stylesheet" href="css/components/header.css">
+        <link rel="stylesheet" href="css/components/banner.css">
+        <link rel="stylesheet" href="css/components/section.css">
         <link rel="stylesheet" href="css/components/button.css">
+        <link rel="stylesheet" href="css/components/main_title.css">
+        <link rel="stylesheet" href="css/components/box.css">
         <link rel="stylesheet" href="css/components/action.css">
+        <link rel="stylesheet" href="css/components/skill_tec.css">
+        <link rel="stylesheet" href="css/components/progress_bar.css">
     </head>
 
     <body>
@@ -35,7 +38,7 @@
         <section class="banner"> <!-- tudo q esta dentro se conversa é diferente da div -->
             <div class="wrapper">
                 <div class="box">
-                    <h1 class="title">Saul Basso Junior</h1> 
+                    <h1 class="main_title">Saul Basso Junior</h1> 
                     <h2 class="subtitle">FrontEnd Devoloper</h2>
                 </div>
                 <div class="navigation">
@@ -43,6 +46,18 @@
                     <a class="button" href="">Contatos</a>
                 </div>
             </div>
+        </section>
+        <section class="section"> <!-- tudo q esta dentro se conversa é diferente da div -->
+            <h2 class="main_title -second">Skills</h1> 
+            <article class="skill_tec"> <!--Description list-->
+                <img class="icon" src="assets/img/ico_html5.png" alt="icone HTML 5">
+                <div class="right">
+                    <h3 class="title">HTML</h3> <!--Description title--> 
+                    <progress class="progress_bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
         </section>
     </body>
 </html>
