@@ -1,12 +1,8 @@
 .wrapper_projects {
     display: flex;
-    flex-wrap: wrap;
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+   justify-content: center;
 }
 
-.wrapper_projects .project_card {
-    margin-bottom: 40px;
-    margin-right: 50px;
+.wrapper_projects .cardbutton {
+    text-decoration: none;
 }
