@@ -1,0 +1,20 @@
+.wrapper_skill{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper_skill .skill_tec{
+    width: 430px;
+    margin-bottom: 40px;
+}
+
+.wrapper_skill .skill_tec:nth-child(odd){ /* Aplica a margen nos elementos skill_tec impares */
+    margin-right: 100px;
+}
+
+.wrapper_skill .progress_bar{
+    width: 320px;
+}
