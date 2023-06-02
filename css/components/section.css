@@ -24,13 +24,10 @@
     margin-bottom: 60px;
 }
 
-.section_project {
-    box-sizing: border-box;
-    background-color: #000;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 760px   ;
-    border-bottom: 10px solid #4F4F4F;
-    padding-top: 50px;
-    padding-bottom: 100px;
+.section.-bgBlack {
+    background-color:  #000;
+}
+
+.section.-bdFirstColor {
+    border-color: #696969;
 }
