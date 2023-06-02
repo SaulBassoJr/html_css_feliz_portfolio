@@ -1,4 +1,4 @@
-.button {
+.main_button {
     display:inline-block;
     background-color: #828282;
     border-radius: 3px;
@@ -11,7 +11,7 @@
     text-decoration: none;
 }
 
-.button:hover {
+.main_button:hover {
     background-color: #696969;
     font-size: 20px;
     color: #000;
