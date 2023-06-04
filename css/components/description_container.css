@@ -1,0 +1,12 @@
+.description_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description_container img {
+    width: 350px;
+    height: 500px;
+}
