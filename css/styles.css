@@ -1,4 +1,4 @@
-#logo {
+.main_logo {
     margin: 0px;
     display: inline-flex;
     align-items: center;
@@ -9,13 +9,12 @@
     transition: all 0.3s ease-in-out; /* Aplica em todas as propriedades alteradas (ease-in-out = tanto pra entrada quanto saida)*/
 }
 
-/* img { 
-    height: 62px;
-    width: 62px;
+.main_logo .logo {
+    text-decoration: none;
+    color: #828282;
+}
 
-} */
-
-#logo:hover{
+.main_logo:hover{
     cursor: pointer;
     transform: scale(1.1);
 }

@@ -1,4 +1,4 @@
-.header { /* Barra de Navegação */
+.main_header { /* Barra de Navegação */
     display: flex;
     justify-content: space-between;
     background-color: #4F4F4F;

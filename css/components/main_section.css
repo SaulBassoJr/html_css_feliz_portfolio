@@ -1,4 +1,4 @@
-.section{
+.main_section{
     box-sizing: border-box;
     background-color: #696969;
     background-repeat: no-repeat;
@@ -9,25 +9,21 @@
     padding-bottom: 100px;
 }
 
-.section .wrapper{
+.main_section .wrapper{
     padding-top: 150px;
     display: inline-block;
     width: 740px;
 
 }
 
-.section .main_title {
+.main_section .main_title {
     margin-bottom: 60px;
 }
 
-.section_project .main_title {
-    margin-bottom: 60px;
-}
-
-.section.-bgBlack {
+.main_section.-bgBlack {
     background-color:  #000;
 }
 
-.section.-bdFirstColor {
+.main_section.-bdFirstColor {
     border-color: #696969;
 }
