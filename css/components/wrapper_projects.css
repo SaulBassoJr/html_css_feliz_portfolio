@@ -1,6 +1,6 @@
 .wrapper_projects {
     display: flex;
-   justify-content: center;
+    justify-content: center;
 }
 
 .wrapper_projects .cardbutton {

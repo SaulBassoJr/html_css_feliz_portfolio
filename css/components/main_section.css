@@ -24,6 +24,11 @@
     background-color:  #000;
 }
 
+.main_section.-bgSlateGrey {
+    background-color: #708090;
+    border-color: #000;
+}
+
 .main_section.-bdFirstColor {
     border-color: #696969;
 }
