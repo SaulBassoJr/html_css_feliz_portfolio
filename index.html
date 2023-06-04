@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="css/components/main_description.css">
         <link rel="stylesheet" href="css/components/description_container.css">
         <link rel="stylesheet" href="css/components/main_footer.css">
+        <link rel="stylesheet" href="css/components/main_label.css">
     </head>
 
     <body>
@@ -115,7 +116,7 @@
         </section>
 
         <section class="main_section -bgBlack -bdFirstColor"> <!-- tudo q esta dentro se conversa é diferente da div -->
-            <h2 class="main_title -second">Projetos</h1>
+            <h2 class="main_title -second">Projetos</h2>
             <div class="wrapper_projects">
                 <a class="cardbutton" href="https://saulbassojr.github.io/projeto_SaaS_Week/" target="_blank">
                     <figure class="project_card">
@@ -144,6 +145,21 @@
                 <img src="assets/img/cavaleiroimg.png" alt="Foto Dev Saul">
             </div>
         </section>
+
+        <form>
+            <h2 class="main_title -second">Contatos</h2>
+
+            <label class="main_label" for="name">Nome: </label>
+            <input id="name" type="text">
+
+            <label class="main_label" for="email">Email: </label>
+            <input id="email" type="email">
+
+            <label class="main_label" for="massage">Menssagem: </label>
+            <textarea id="message"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
 
         <footer class="main_footer">
             <a class="icon" href="https://github.com/SaulBassoJr" target="_blank">
