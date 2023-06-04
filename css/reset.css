@@ -2,7 +2,7 @@ body{
     font-family: "Fira Code", sans-serif; /* Fall Back, caso o carregamento de uma fonte falhe a uma outra opção*/
 }
 
-body, h1, h2, h3 {
+body, h1, h2, h3, figure {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
