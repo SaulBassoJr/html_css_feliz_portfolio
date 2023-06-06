@@ -3,10 +3,10 @@
     box-sizing: border-box;
     background-image: url(../../assets/img/background2.gif);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     height: 760px;
     border-bottom: 10px solid #000;
-    padding-top: 115px;
+    padding-top: 90px;
     padding-left: 90px;
     padding-right: 90px;
 }
@@ -29,8 +29,136 @@
 
 }
 
-@media (max-width: 811){
-    .main_banner .main_box .main_title{
-        font-size: 10px;
+@media (max-width: 1290px){
+    .main_banner .main_box .main_title {
+        font-size: 26px;
     }
+
+    .main_banner .main_box .subtitle{
+        font-size: 18px;
+    }
+
+    .main_banner .main_box{
+        padding: 22px 24px;
+    }
+
+    .main_banner .wrapper {
+        width: 540px;
+    }
+}
+
+@media (max-width: 980px){
+    .main_banner .main_box .main_title{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .main_banner .main_box .subtitle{
+        font-size: 12px;
+    }
+
+    .main_banner .main_box{
+        padding: 14px 18px;
+    }
+
+    .main_banner .wrapper {
+        width: 430px;
+    }
+
+}
+
+@media (max-width: 848px){
+    .main_banner{
+        padding-top: 45px;
+    }
+
+    .main_banner .main_box .main_title{
+        font-size: 20px;
+        
+    }
+
+    .main_banner .main_box .subtitle{
+        font-size: 12px;
+    }
+
+    .main_banner .main_box{
+        padding: 12px 14px;
+    }
+
+    .main_banner .wrapper {
+        width: 100%;
+    }
+
+    .main_banner .navigation .main_button{
+        max-width: 110px;
+        font-size: 15px;
+    
+    }
+
+}
+
+@media (max-width: 548px){
+    .main_banner{
+        padding-top: 40px;
+    }
+
+    .main_banner .main_box .main_title{
+        font-size: 18px;
+        
+    }
+
+    .main_banner .main_box .subtitle{
+        font-size: 11px;
+    }
+
+    .main_banner .main_box{
+        margin-bottom: 20px;      
+    }
+
+    .main_banner .wrapper {
+        width: 100%;
+        
+    }
+
+
+    .main_banner .navigation .main_button{
+       
+        font-size: 15px;
+        margin-bottom: 10px;
+    
+    }
+
+}
+
+@media (max-width: 514px){
+    .main_banner{
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main_banner .main_box .main_title{
+        font-size: 15px;
+        
+    }
+
+    .main_banner .main_box .subtitle{
+        font-size: 9px;
+    }
+
+    .main_banner .main_box{
+        margin-bottom: 20px;      
+    }
+
+    .main_banner .wrapper {
+        width: 100%;
+        
+    }
+
+    .main_banner .navigation .main_button{
+        font-size: 10px;
+        margin-bottom: 8px;
+    
+    }
+
 }

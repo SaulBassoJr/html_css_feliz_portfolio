@@ -9,21 +9,3 @@
 .main_box .main_title{
     margin-bottom: 28px;
 }
-
-@media (max-width: 914px){
-    .main_box .main_title{
-        font-size: 28px;
-    }
-    .main_box .subtitle{
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 744px){
-    .main_box .main_title{
-        font-size: 18px;
-    }
-    .main_box .subtitle{
-        font-size: 10px;
-    }
-}

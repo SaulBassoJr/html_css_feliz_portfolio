@@ -6,3 +6,26 @@
     margin-right: 50px;
     max-width: 800px;
 }
+
+.main_description.-descriptionHome{
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 1210px){
+    .main_description.-descriptionHome{
+        font-size: 18px;
+        margin-top: 12px;
+    }
+   
+}
+
+@media (max-width: 848px){
+    .main_description.-descriptionHome{
+        margin-top: 15px;
+    }
+
+}
+
