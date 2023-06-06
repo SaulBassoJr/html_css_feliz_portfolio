@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Suporte a caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Skills</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/components/main_logo.css">
+    <link rel="stylesheet" href="css/components/main_header.css">
+    <link rel="stylesheet" href="css/components/icon_menu.css">
+    <link rel="stylesheet" href="css/components/icon_close.css">
+    <link rel="stylesheet" href="css/components/main_section.css">
+    <link rel="stylesheet" href="css/components/main_button.css">
+    <link rel="stylesheet" href="css/components/main_title.css">
+    <link rel="stylesheet" href="css/components/main_action.css">
+
+    <link rel="stylesheet" href="css/components/main_description.css">
+    <link rel="stylesheet" href="css/components/description_container.css">
+
+    <link rel="stylesheet" href="css/components/main_footer.css">
+
+</head>
+<body onresize="changedSize()">
+    <header class="main_header"> <!-- Cabeçalho -->
+        <h1 class="main_logo"> <a class="logo" href="index.html">DEV Saul</a></h1>
+
+        <a href="#menu" class="icon_menu" onclick="clickMenu()">Abrir Menu</a>
+
+        <nav id="menu" class="menu"> <!-- Navegação do site, tag utilizada para guardar os links de navegação -->
+            <a class="main_action" href="skills.html" lang="en">Skills</a>
+            <a class="main_action" href="projects.html">Projetos</a>
+            <a class="main_action" href="">Contatos</a>
+            <a class="main_button" href="description.html" lang="en">Sobre Mim</a>
+
+            <a class="icon_close" href="#menu" onclick="clickClose()">X</a>
+        </nav>   
+    </header>
+    
+    <section class="main_section -bgSlateGrey">
+        <h2 class="main_title -second">Sobre</h2>
+        <div class="description_container">
+            <p class="main_description"> Atualmente estou cursando o 5º ano de Bacharelado em Engenharia de Software pela Universide
+                Estadual de Ponta Grossa - UEPG. Sou apaixonado por tecnologia e inovação. Já trabalhei
+                em diversas areas e no momento atual dou aulas de informatica. Meu objetivo é entrar para a area de desenvolvimento
+                Front-End. Por tanto, estou aperfeiçoando minhas abilidades em React para ingressar neste campo, onde busco minha primeira
+                oportunidade profissional.
+            </p>
+            <img src="assets/img/cavaleiroimg.png" alt="Foto Dev Saul">
+        </div>
+    </section>
+
+    <footer class="main_footer">
+        <a class="icon" href="https://github.com/SaulBassoJr" target="_blank">
+            <img src="assets/img/github_pxicon.png" alt="Logo logo do Github em pixel art">
+        </a>
+        <a href="https://www.linkedin.com/in/saul-basso-junior-084087245/" target="_blank">
+            <img src="assets/img/linkedin_pxicon.png" alt="Logo do Linkedin em pixel art">
+        </a>
+    </footer>
+
+    <script src="js/script.js"></script>
+   
+</body>
+</html>
