@@ -18,3 +18,15 @@
 .wrapper_skill .progress_bar{
     width: 320px;
 }
+
+@media (max-width: 1023px){
+    .wrapper_skill{
+        max-width: 500px;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .wrapper_skill .skill_tec:nth-child(odd){ /* Aplica a margen nos elementos skill_tec impares */
+        margin-right: 0px;
+    }
+}

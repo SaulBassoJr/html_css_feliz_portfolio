@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Suporte a caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Skills</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/components/main_logo.css">
+    <link rel="stylesheet" href="css/components/main_header.css">
+    <link rel="stylesheet" href="css/components/icon_menu.css">
+    <link rel="stylesheet" href="css/components/icon_close.css">
+    <link rel="stylesheet" href="css/components/main_section.css">
+    <link rel="stylesheet" href="css/components/main_button.css">
+    <link rel="stylesheet" href="css/components/main_title.css">
+    <link rel="stylesheet" href="css/components/main_action.css">
+
+    <link rel="stylesheet" href="css/components/wrapper_skill.css">
+    <link rel="stylesheet" href="css/components/skill_tec.css">
+    <link rel="stylesheet" href="css/components/progress_bar.css">
+
+    <link rel="stylesheet" href="css/components/main_footer.css">
+
+</head>
+<body onresize="changedSize()">
+    <header class="main_header"> <!-- Cabeçalho -->
+        <h1 class="main_logo"> <a class="logo" href="index.html">DEV Saul</a></h1>
+
+        <a href="#menu" class="icon_menu" onclick="clickMenu()">Abrir Menu</a>
+
+        <nav id="menu" class="menu"> <!-- Navegação do site, tag utilizada para guardar os links de navegação -->
+            <a class="main_action" href="" lang="en">Skills</a>
+            <a class="main_action" href="">Projetos</a>
+            <a class="main_action" href="">Contatos</a>
+            <a class="main_button" href="" lang="en">Download CV</a>
+
+            <a class="icon_close" href="#menu" onclick="clickClose()">X</a>
+        </nav>   
+    </header>
+    <section class="main_section -bdBlack"> <!-- tudo q esta dentro se conversa é diferente da div -->
+        <h2 class="main_title -second">Skills</h1> 
+        <div class="wrapper_skill">
+            <article class="skill_tec "> <!--Description list-->
+                <img class="icon" src="assets/img/ico_html5.png" alt="icone HTML 5">
+                <div class="right">
+                    <h3 class="title">HTML</h3> <!--Description title--> 
+                    <progress class="progress_bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill_tec"> <!--Description list-->
+                <img class="icon" src="assets/img/ico_css3.png" alt="icone CSS 3">
+                <div class="right">
+                    <h3 class="title">CSS</h3> <!--Description title--> 
+                    <progress class="progress_bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill_tec "> <!--Description list-->
+                <img class="icon" src="assets/img/ico_js.png" alt="icone js">
+                <div class="right">
+                    <h3 class="title">JavaScript</h3> <!--Description title--> 
+                    <progress class="progress_bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill_tec"> <!--Description list-->
+                <img class="icon" src="assets/img/ico_react.png" alt="icone react">
+                <div class="right">
+                    <h3 class="title">React</h3> <!--Description title--> 
+                    <progress class="progress_bar" max="100" value="30">
+                        30%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill_tec "> <!--Description list-->
+                <img class="icon" src="assets/img/icon_c++.png" alt="icone C++">
+                <div class="right">
+                    <h3 class="title">C++</h3> <!--Description title--> 
+                    <progress class="progress_bar" max="100" value="40">
+                        40%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill_tec"> <!--Description list-->
+                <img class="icon" src="assets/img/icon_git.png" alt="icone Git">
+                <div class="right">
+                    <h3 class="title">Git</h3> <!--Description title--> 
+                    <progress class="progress_bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+        </div>
+    </section> 
+
+    <footer class="main_footer">
+        <a class="icon" href="https://github.com/SaulBassoJr" target="_blank">
+            <img src="assets/img/github_pxicon.png" alt="Logo logo do Github em pixel art">
+        </a>
+        <a href="https://www.linkedin.com/in/saul-basso-junior-084087245/" target="_blank">
+            <img src="assets/img/linkedin_pxicon.png" alt="Logo do Linkedin em pixel art">
+        </a>
+    </footer>
+
+    <script src="js/script.js"></script>
+   
+</body>
+</html>
