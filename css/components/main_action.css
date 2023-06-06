@@ -18,3 +18,9 @@
 .main_action:hover {
     color: #000;
 }
+
+@media (max-width: 980px){
+    .main_action:hover {
+        color: #828282;
+    }
+}

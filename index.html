@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/components/main_logo.css">
         <link rel="stylesheet" href="css/components/main_header.css">
+        <link rel="stylesheet" href="css/components/icon_menu.css">
+        <link rel="stylesheet" href="css/components/icon_close.css">
         <link rel="stylesheet" href="css/components/main_banner.css">
         <link rel="stylesheet" href="css/components/main_section.css">
         <link rel="stylesheet" href="css/components/main_button.css">
@@ -34,14 +36,19 @@
         <link rel="stylesheet" href="css/components/main_input.css">
     </head>
 
-    <body>
+    <body onresize="changedSize()">
         <header class="main_header"> <!-- Cabeçalho -->
             <h1 class="main_logo"> <a class="logo" href="">DEV Saul</a></h1>
-            <nav class="menu"> <!-- Navegação do site, tag utilizada para guardar os links de navegação -->
+
+            <a href="#menu" class="icon_menu" onclick="clickMenu()">Abrir Menu</a>
+
+            <nav id="menu" class="menu"> <!-- Navegação do site, tag utilizada para guardar os links de navegação -->
                 <a class="main_action" href="" lang="en">Skills</a>
                 <a class="main_action" href="">Projetos</a>
                 <a class="main_action" href="">Contatos</a>
                 <a class="main_button" href="" lang="en">Download CV</a>
+
+                <a class="icon_close" href="#menu" onclick="clickClose()">X</a>
             </nav>   
         </header> 
         <section class="main_banner"> <!-- tudo q esta dentro se conversa é diferente da div -->
@@ -172,5 +179,6 @@
             </a>
         </footer>
 
+        <script src="js/script.js"></script>
     </body>
 </html>
