@@ -1,12 +1,14 @@
 .main_banner{
+    display: flex;
     box-sizing: border-box;
     background-image: url(../../assets/img/background2.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 760px   ;
+    height: 760px;
     border-bottom: 10px solid #000;
     padding-top: 115px;
     padding-left: 90px;
+    padding-right: 90px;
 }
 
 .main_banner .wrapper{
@@ -25,4 +27,10 @@
     display: flex;
     justify-content: space-around;
 
+}
+
+@media (max-width: 811){
+    .main_banner .main_box .main_title{
+        font-size: 10px;
+    }
 }
