@@ -17,3 +17,9 @@
     font-family: "Press Start 2P", sans-serif;
     text-shadow: 4px 4px 0px #000;
 }
+
+@media (max-width: 500px){
+    .main_title.-second{
+        font-size: 25px;
+    }
+}

@@ -30,3 +30,27 @@
         margin-right: 0px;
     }
 }
+
+@media (max-width: 500px){
+
+    .wrapper_skill .skill_tec{
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .wrapper_skill .progress_bar{
+        width: 200px;
+    }
+
+    .wrapper_skill .skill_tec .title{
+        font-size: 19px;
+        margin-bottom: 10;
+    }
+
+    .wrapper_skill .skill_tec .icon {
+        margin-right: 25px;
+        height: 60px;
+        width: 60px;
+    }
+    
+}
