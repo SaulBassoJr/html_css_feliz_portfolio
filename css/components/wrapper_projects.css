@@ -2,8 +2,32 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .wrapper_projects .cardbutton {
     text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+    .wrapper_projects .project_card {
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .wrapper_projects .project_card .icon{
+        width: 170px;
+        height: 170px;
+    }
+    
+    .wrapper_projects .project_card .title {
+        margin-top: 5px;
+    }
+
 }
