@@ -7,6 +7,42 @@
 }
 
 .description_container img {
-    width: 350px;
-    height: 500px;
+    width: 360px;
+    height: 100%;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 1210px) {
+    .description_container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .description_container img {
+        width: 220px;
+        height: 300px;
+        margin-bottom: 0;
+    }
+
+    .description_container .main_description {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+        
+}
+
+@media (max-width: 428px) {
+
+    .description_container img {
+        width: 150px;
+        height: 220px;
+    }
+
+    .description_container .main_description {
+        font-size: 12px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+        
 }

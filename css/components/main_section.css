@@ -20,6 +20,10 @@
     margin-bottom: 60px;
 }
 
+.main_section.-description .main_title {
+    margin-bottom: 30px;
+}
+
 .main_section.-bgBlack {
     background-color:  #000;
 }
