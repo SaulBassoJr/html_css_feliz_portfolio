@@ -70,6 +70,7 @@
 @media (max-width: 848px){
     .main_banner{
         padding-top: 45px;
+        height: 600px;
     }
 
     .main_banner .main_box .main_title{
