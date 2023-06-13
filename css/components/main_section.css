@@ -40,3 +40,7 @@
 .main_section.-bdFirstColor {
     border-color: #696969;
 }
+
+.main_section.-project .main_title {
+    margin-bottom: 40px;
+}
